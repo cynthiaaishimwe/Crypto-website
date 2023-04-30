@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    /* width: 100; */
+     width: 100%;
     background: linear-gradient(to top ,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(image32.jpg);
     background-position: center;
     background-size: cover;
@@ -125,6 +125,7 @@ td button{
 .paragraph{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    padding-right: 60px;
 
 }
 .par1{
@@ -224,10 +225,12 @@ color: #82c91e;
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.side-image{
-    padding: 10%;
-    width: 40%;
-    margin: 2px;
+.side-image img{
+     padding: 5px; 
+     border-radius: 20px;
+
+     width: 80%; 
+    /* margin: 2px; */
 
 }
  .buton-paragraph{
@@ -240,7 +243,14 @@ color: #82c91e;
 } */
 .button1{
     display: flex;
+   
     
+}
+.button1 {
+    margin-bottom: 20px;
+}
+.button1 {
+    margin-bottom: 20px;  
 }
  .buttonss button{
     width: 80px;
@@ -249,10 +259,121 @@ color: #82c91e;
    border-radius: 10px;
 
 }  
+.buttonss p{
+    margin-bottom: 15px;
+}
+.buttonss{
+    margin-right: 20px;
+}
 .button2{
     display: flex;
+    margin-bottom: 20px;
 }
 .button3{
  display: flex;
 
+}
+.crypto{
+ color: #fff;
+ padding: 20px;
+ margin: 20px;
+gap: 20%;
+
+}
+.paragraphh{
+    padding: 20px;
+}
+.buton-paragraph{
+    display: flex;
+}
+.lastparagraph h4{
+    color: #82c91e;
+}
+.apps{
+    display: flex;
+ /* margin-bottom: 100px;    */
+   
+ 
+} 
+.apps .google button{
+    /* margin-top: 70%; */
+}
+
+.apps .appstore button{
+    /* margin-top: 70%; */
+    
+}
+.google button{
+    padding: 10px;
+    border-radius: 20px;
+   background-color: #82c91e;
+   
+}
+
+
+.appstore button{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #82c91e;
+   
+
+   
+
+}
+ .portfolio{
+ display: flex;
+ 
+} 
+.crypticallywallet img{
+    width: 90%;
+     height: 50%; 
+    border-radius: 20%;
+    /* margin-top: 30%; */
+   margin-top: 40%;
+}
+ 
+.start button{
+    background-color: #82c91e; 
+    font-size: 10px;
+    padding: 20px;
+   
+   border-radius: 20px;
+
+}
+
+.buttonss{
+   padding-left: 80px; 
+   margin-top: 40px;
+}
+.start{
+   
+    background-color: #212529;
+   padding: 10%;
+   /* border-radius: 30px; */
+    margin: 30px; 
+
+}
+.start button{
+   width: 70%;
+   background-color: gray;
+  
+
+}
+.start h2{
+    margin: 20px;
+    
+}
+.socials{
+    font-size: 30px;
+    display: flex;
+   gap: 60px;
+  
+}
+
+@media screen and (max-width: 800px){
+    body{
+        background: #82c91e
+
+    }
+    
 }
