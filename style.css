@@ -2,13 +2,13 @@
     margin: 0;
     padding: 0;
 }
-body{
+ body{
      width: 100%;
     background: linear-gradient(to top ,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(image32.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
-}
+} 
 
 .nav-bar{
     width: 1200px;
@@ -292,7 +292,7 @@ gap: 20%;
 .apps{
     display: flex;
  /* margin-bottom: 100px;    */
-   
+   margin-top: 20px;
  
 } 
 .apps .google button{
@@ -322,15 +322,15 @@ gap: 20%;
 }
  .portfolio{
  display: flex;
+ justify-content: space-between;
  
 } 
 .crypticallywallet img{
-    width: 90%;
-     height: 50%; 
-    border-radius: 20%;
-    /* margin-top: 30%; */
-   margin-top: 40%;
+    width: 50%;
+    border-radius: 10%;
+    height: 80%;
 }
+   
  
 .start button{
     background-color: #82c91e; 
@@ -365,15 +365,57 @@ gap: 20%;
 }
 .socials{
     font-size: 30px;
-    display: flex;
+    /* display: flex; */
    gap: 60px;
   
 }
+.cryptovest{
+    display: flex;
+    justify-content: space-between;
+    list-style: none; 
+     background-color: black;   
+    padding: 8%;
+   margin: 20px;
+   color: #fff;
+}
+.submit button{
+   
+    font-size: 10px;
+    padding: 10px;
+     width: 80%; 
+   border-radius: 20px;
+}
+.socials h2{
+    font-size: 30px;
+   
+}
 
-@media screen and (max-width: 800px){
+.socials p{
+    font-size: 20px;
+    font-weight: 10px;
+}
+
+
+
+@media screen and (max-width: 500px){
     body{
-        background: #82c91e
-
+      background-color: #82c91e;  
     }
+    .paragraph{
+        /* display: grid; */
+        /* grid-template-columns: repeat(3,1fr); */
+        /* padding-right: 60px; */
+        flex-direction: column;
+
+    }   
     
+    .borders{
+        flex-direction: column;
+    }
+    .portfolio{
+        flex-direction: column;
+        margin: 30%;
+       } 
+    
+
 }
